@@ -1,157 +1,108 @@
-const logotext = "JOHN";
+const logotext = "Prateek";
+import OIPImage from "./assets/images/OIP.jpeg";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Prateek Singh",
+    description: "I’m Prateek Singh, a passionate frontend developer.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Prateek Singh",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I build cool websites",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "A frontend developer passionate about creating stunning web experiences.",
+    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d", // You can replace it with your own image URL
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about myself",
+    aboutme: "I’m a frontend developer skilled in creating dynamic and responsive websites. With strong foundations in HTML, CSS, JavaScript, and React, I love bringing ideas to life on the web.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Open Source Contributor",
+        where: "GitHub",
+        date: "2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Web Developer (Freelance)",
+        where: "Remote",
+        date: "2024",
     },
 ];
 
-const skills = [{
-        name: "Python",
+const skills = [
+    {
+        name: "HTML",
+        value: 100,
+    },
+    {
+        name: "CSS",
+        value: 100,
+    },
+    {
+        name: "JavaScript",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
         name: "React",
-        value: 60,
+        value: 90,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "GSAP",
+        value: 95,
+    },
+    {
+        name: "Figma",
+        value: 95,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Frontend Development",
+        description: "Creating responsive, modern, and user-friendly web interfaces using the latest frontend technologies.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "UI/UX Design",
+        description: "Designing intuitive and visually appealing user experiences using design tools and user-centered thinking.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Animations",
+        description: "Enhancing user engagement through creative animations using GSAP, CSS, and JavaScript.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Portfolio Project 1 - Responsive portfolio using React.",
+        link: "https://github.com/CYBERGURU9920",
+    },
+    {
+        img: OIPImage,
+        description: "Portfolio Project 2 - Interactive landing page with animations.",
+        link: "https://boolean-devs-reimagine-round2.vercel.app/",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Portfolio Project 3 - Full-page scroll website with GSAP.",
+        link: "https://github.com/CYBERGURU9920",
     },
 ];
-
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "prateeksingh7652000017@gmail.com",
+    YOUR_FONE: "+91-8960443804",
+    description: "Let’s work together or just say hi. I’m always open to discussing new projects or opportunities.",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/CYBERGURU9920",
+    linkedin: "https://www.linkedin.com/in/prateek-singh-p30112003/",
 };
+
 export {
     meta,
     dataabout,
